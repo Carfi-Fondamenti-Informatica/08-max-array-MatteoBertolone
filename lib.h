@@ -1,4 +1,4 @@
-#ifndef ESERCITAZIONE8_LIB_H
-#define ESERCITAZIONE8_LIB_H
+#ifndef ESERCITAZIONE8_lib_h
+#define ESERCITAZIONE8_lib_h
 float max( int, float[]);
 #endif
