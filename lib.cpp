@@ -1,11 +1,12 @@
 #include "lib.h"
 
-float max(int y, float x[]){
-    float m=x[0];
-    for(int j=1; j<y; j++){
-        if(x[j]>m){
-            m=x[j];
-				}
+float array(int d,float a[]){
+    for(int i=0; i<d; i++){
+        if(a[0]<=a[i]){
+            a[0]=a[i];
+        }else{
+            a[i]=a[0];
+        }
     }
-    return m;
+    return a[0];
 }
