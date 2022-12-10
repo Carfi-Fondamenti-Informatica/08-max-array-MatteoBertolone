@@ -9,6 +9,6 @@ int main(){
     for(int i=0; i<l; i++){
         cin>>a[i];
     }
-    cout<< max(l,a);
+    cout<< max(a,l);
  	return 0;
 }
