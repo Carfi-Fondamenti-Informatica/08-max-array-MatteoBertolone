@@ -1,11 +1,11 @@
 #include "lib.h"
-float numeri (float arr[l, int n)
-	for (int i = O;i<n;++i) {
-		if (arr[0]›arr[i]) {
+float numeri (float arr[], int n){
+	for(int i=0;i<n;++i){
+		if(arr[0]>arr[i]){
 
-			}else{
-				arr[0]=arr[il;
-			}
+		}else{
+				arr[0]=arr[i];
+		}
 	}
 	return arr[0];
 }
