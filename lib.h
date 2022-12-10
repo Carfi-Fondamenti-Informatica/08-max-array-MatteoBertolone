@@ -1,1 +1,1 @@
-float max(float x[],int y);
+float numeri (float [],int);
