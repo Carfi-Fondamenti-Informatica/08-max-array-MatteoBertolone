@@ -1,12 +1,11 @@
 #include "lib.h"
 
-float array(int d,float a[]){
-    for(int i=0; i<d; i++){
-        if(a[0]<=a[i]){
-            a[0]=a[i];
-        }else{
-            a[i]=a[0];
+float array(float x[],int y){
+	float m=x[0];
+    for(int i=1; i<y; i++){
+        if(x[i]>m){
+        	m=x[i];
         }
     }
-    return a[0];
+    return m;
 }
