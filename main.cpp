@@ -1,14 +1,13 @@
 #include <iostream>
 #include "lib.h"
 using namespace std;
-
 int main(){
-	int l=0;
-    cin>>l;
-	float a[l]; 
-    for(int i=0; i<l; i++){
-        cin>>a[i];
-    }
-    cout<< max(a,l);
- 	return 0;
+	int n;
+	cin>>n;
+	float arr [n];
+	for (int i=0; i<n; i++) {
+		cin>>arr[i];
+	}
+	cout<< numeri(arr,n) <<endl;
+	return 0;
 }
