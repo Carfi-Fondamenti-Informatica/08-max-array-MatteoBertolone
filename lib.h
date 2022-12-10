@@ -1,1 +1,1 @@
-float max(int,float);
+float max(int,float[]);
