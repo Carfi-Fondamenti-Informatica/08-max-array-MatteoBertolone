@@ -8,3 +8,4 @@ float max(int y, float x[]){
 				}
     }
     return m;
+}
